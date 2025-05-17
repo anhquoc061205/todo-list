@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: #57a2c7;
+ background: linear-gradient(to right, #2f173b, #98255f);
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.container{
+   background-color: #fff;
+    width: 100%;
+    max-width: 600px;
+   border-radius: 5px;
+   overflow: hidden;
+}
+header{
+    padding: 20px;
+    
+     background: linear-gradient(to right, #9932CC, #FF69B4);
+    color: #fff;
+   
+   
+
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    flex: 1;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+  
+}
+
+.input-section{
+    display: flex;
+ gap: 10px;
+}
+.input-section button{
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e6338d;
+    cursor: pointer;
+}
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.todo-content{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+.todos-container{
+    padding: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.todo-actions {
+    display: flex;
+    gap: 10px;
+}
+.todo-actions button{
+    background: none;
+    border: none;
+    outline: none;
+    color: #e6338d;
+    font-size: 25px;
+}
