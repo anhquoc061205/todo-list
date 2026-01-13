@@ -1,0 +1,53 @@
+{
+  
+  "name": "todolist",
+  
+  "version": "1.0.0",
+  
+  "scripts": {
+  
+    
+  "dev": "vite",
+  
+    
+  "build": "vite build",
+  
+    
+  "preview": "vite preview"
+  
+  },
+  
+  "repository": {
+  
+    
+  "type": "git",
+  
+    
+  "url": "git+https://github.com/anhquoc061205/todo-list.git"
+  
+  },
+  
+  "keywords": [],
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "bugs": {
+  
+    
+  "url": "https://github.com/anhquoc061205/todo-list/issues"
+  
+  },
+  
+  "homepage": "https://github.com/anhquoc061205/todo-list#readme",
+  
+  "description": "",
+  
+  "devDependencies": {
+  
+    
+  "vite": "^7.3.1"
+  
+  }
+}
